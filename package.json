@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "generate": "prisma generate",
+    "schema": "src/database/prisma/schema.prisma",
     "start": "npm run generate && node src/index.js"
   },
   "keywords": [],
