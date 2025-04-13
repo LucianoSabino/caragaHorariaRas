@@ -7,7 +7,7 @@
     "dev": "nodemon src/index.js",
     "generate": "prisma generate",
     "schema": "prisma/schema.prisma",
-    "build": "npm run generate",
+    "build": "prisma generate && next build",
     "start": "node src/index.js"
   },
   "keywords": [],
